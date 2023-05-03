@@ -1,0 +1,29 @@
+Keyword
+endpoint -> URL que apunta a un APIrest
+rest -> Json
+
+R1: Nistrar en una pagina web los siguientes datos de paises
+obtenidos en el siguiente endpoint
+
+https://restcountries.com/v3.1/independent?status=true:
+
+Nombre del pais ( Comun )
+Nombre oficial
+Capital
+Moneda
+Idiomas
+Bandera ( Imagen )
+Escudos de armas ( Imagenes )
+Poblacion
+
+se debe agregar un boton que recupere los datos y los muestre en pantalla de forma organizada 
+Al momento de recuperar los datos debe cambiar el titulo  del h1 a "Datos de paises" ( El h1 original debe ser "Ejemplo EndPoint" )
+
+Debe tener en cuenta que los idiomas y los escudos de armas se deben mostrar en una lista
+
+
+
+1) Analizar el JSON
+2) Conectar al endpoint desde JS y mostrar el resultado completo
+3) Mostrar en consola los datos
+4) Agrgar los datos al table desde un evento de click de boton.
